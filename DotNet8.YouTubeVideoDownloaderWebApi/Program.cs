@@ -1,4 +1,4 @@
-namespace DotNet8.YoutubeVideoDowloaderWebApi
+namespace DotNet8.YouTubeVideoDownloaderWebApi
 {
     public class Program
     {
