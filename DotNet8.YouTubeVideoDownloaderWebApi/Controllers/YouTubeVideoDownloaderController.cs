@@ -1,4 +1,4 @@
-﻿using DotNet8.YoutubeVideoDowloaderWebApi.Models;
+﻿using DotNet8.YouTubeVideoDownloaderWebApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using YoutubeExplode;
 
@@ -6,12 +6,12 @@ namespace DotNet8.YoutubeVideoDownloaderWebApi.Controllers
 {
     [Route("/[controller]")]
     [ApiController]
-    public class YoutubeVideoDownloaderController : ControllerBase
+    public class YouTubeVideoDownloaderController : ControllerBase
     {
         [HttpPost("download")]
         public async Task<IActionResult> DownloadVideos(DownloadRequestModel reqModel)
         {
-            #region Check Requir Field
+            #region Check Required Field
 
             if (reqModel.OutputFilePath is null)
             {
@@ -46,7 +46,6 @@ namespace DotNet8.YoutubeVideoDownloaderWebApi.Controllers
             }
 
             #endregion
-
         }
 
         #region Download YouTube Video
@@ -76,7 +75,6 @@ namespace DotNet8.YoutubeVideoDownloaderWebApi.Controllers
             {
                 throw new Exception($"No suitable video stream found for {video.Title}.");
             }
-
         }
 
         #endregion
