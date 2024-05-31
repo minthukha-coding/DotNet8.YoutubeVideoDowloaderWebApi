@@ -2,14 +2,14 @@
 using Microsoft.AspNetCore.Mvc;
 using YoutubeExplode;
 
-namespace DotNet8.YoutubeVideoDowloaderWebApi.Controllers
+namespace DotNet8.YoutubeVideoDownloaderWebApi.Controllers
 {
     [Route("/[controller]")]
     [ApiController]
-    public class YoutubeVideoDowloadercontroller : ControllerBase
+    public class YoutubeVideoDownloaderController : ControllerBase
     {
-        [HttpPost("dowload")]
-        public async Task<IActionResult> DowloadVideos(DownloadRequestModel reqModel)
+        [HttpPost("download")]
+        public async Task<IActionResult> DownloadVideos(DownloadRequestModel reqModel)
         {
             #region Check Requir Field
 
@@ -25,7 +25,7 @@ namespace DotNet8.YoutubeVideoDowloaderWebApi.Controllers
 
             #endregion
 
-            #region Called DownloadYouTubeVideo Method To Dowload 
+            #region Called Download YouTubeVideo Method To Dowload 
 
             try
             {
