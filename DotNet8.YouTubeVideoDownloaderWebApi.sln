@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.34909.67
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.YoutubeVideoDowloaderWebApi", "DotNet8.YoutubeVideoDowloaderWebApi\DotNet8.YoutubeVideoDowloaderWebApi.csproj", "{25F5D0C1-A3FE-4ED8-B7E8-0B7EBD9641A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.YouTubeVideoDownloaderWebApi", "DotNet8.YouTubeVideoDownloaderWebApi\DotNet8.YouTubeVideoDownloaderWebApi.csproj", "{25F5D0C1-A3FE-4ED8-B7E8-0B7EBD9641A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
